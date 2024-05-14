@@ -1,9 +1,8 @@
 #!/bin/bash -
-##########################################################
 # Author:      Christo Deale                  
-# Date  :      2023-0              
+# Date  :      2024-05-14              
 # tailscale_setup: Utility to install Tailscale on RHEL9
-##########################################################
+#
 # Verify if Tailscale is already installed
 if ! command -v tailscale &> /dev/null; then
     echo "Tailscale is not installed. Proceeding with installation..."
